@@ -1,0 +1,222 @@
+/*Autor: Luan Sakashita Calais */
+
+body{
+    background-image: url(fundoIndex.jpg);/*Insere o fundo da página*/
+    background-color: pink;/* Cor do fundo da página */
+    background-size: 1444px 900px;/* O tamanho do plano de fundo, o primeiro é largura o segundo é altura */
+    background-repeat: no-repeat;/* Define que a imagem não irá se repetir */
+    background-attachment: fixed;/* Aimagem ficará fixa na página */
+    position: relative;
+}
+
+h1{ font-family: 'Kiwi Maru', serif; /* A fonte trazida da biblioteca google */
+    color: #DC143C; /* Cor da fonte */
+    /*text-align: center;  Centralização do texto */
+    font-size: 70px;  /*Tamanho da fonte */
+    position: absolute;/* Posição absoluta */
+    text-transform: uppercase;/* Todas as letras maiúsculas */
+    left: 50px; top: 120px;
+}
+
+h1:hover{ font-family: 'Kiwi Maru', serif; /* Essa parte HOVER define como h1 vai reagir */
+    color: black; /* Vai dar um pequeno efeito quando o mouse passar por cima */
+    font-size: 70px;
+    position: absolute;
+    left: 50px;
+    top: 120px;
+}
+
+
+h2{font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    left: 50px;
+    top: 400px;
+    background-color: #DC143C;
+}
+
+h2:hover{font-family: 'Raleway', sans-serif;
+    color: #DC143C;
+    font-size: 40px;
+    position: absolute;
+    left: 50px;
+    top: 400px;
+    background-color: black;
+}
+
+
+#noticia1{font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 280px;
+    top: 1000px;
+    background-color: #DC143C;
+}
+
+#paragrafo1{font-family: 'Raleway', sans-serif;
+    color: #DC143C;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 1100px;
+    background-color: black;
+    text-align: left;
+}
+
+#noticia2{font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    left: 200px;
+    top: 1780px;
+    background-color: #DC143C;
+}
+
+#paragrafo2{font-family: 'Raleway', sans-serif;
+    color: #DC143C;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 1865px;
+    background-color: black;
+    text-align: left;
+}
+
+#noticia3{font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    left: 240px;
+    top: 2670px;
+    background-color: #DC143C;
+}
+
+#paragrafo3{font-family: 'Raleway', sans-serif;
+    color: #DC143C;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 2755px;
+    text-align: left;
+    background-color: black;
+}
+
+footer{font-family: 'Kiwi Maru', serif;
+    color:#DC143C;
+    font-size: 15px;
+    position: absolute;
+    left: -10px;
+    top: 3195px;
+    background-color: black;
+    width: 1350px;
+    text-align: center;
+}
+
+.link1{font-family: 'Kiwi Maru', serif;
+    background-color: #DC143C;
+    border-radius: 50px 0px 0px 50px;/* define como a borda vai ser, nesse caso será arredondada */
+    padding: 20px; /* define a altura dessa borda */
+    font-weight: bold;/* Define o texto em negrito */
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    left: 1190px;
+    top: 20px;
+    width: 110px;
+}
+
+.link1:hover{font-family: 'Kiwi Maru', serif;
+    background-color: black;
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color:#DC143C;
+    position: absolute;
+    left: 1190px;
+    top: 20px;
+    width: 110px;
+}
+
+.link2{font-family: 'Kiwi Maru', serif;
+    background-color: #DC143C;
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    left: 1190px;
+    top: 100px;
+    width: 110px;
+}
+
+.link2:hover{font-family: 'Kiwi Maru', serif;
+    background-color: black;
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color:#DC143C;
+    position: absolute;
+    left: 1190px;
+    top: 100px;
+    width: 110px;
+}
+
+.link3{font-family: 'Kiwi Maru', serif;
+    background-color: #DC143C;
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    left: 1190px;
+    top: 200px;
+    width: 110px;
+}
+
+.link3:hover{font-family: 'Kiwi Maru', serif;
+    background-color: black;
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #DC143C;
+    position: absolute;
+    left: 1190px;
+    top: 200px;
+    width: 110px;
+}
+
+.link4{font-family: 'Kiwi Maru', serif;
+    background-color: #DC143C;
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    left: 1190px;
+    top: 300px;
+    width: 110px;
+}
+
+.link4:hover{font-family: 'Kiwi Maru', serif;
+    background-color: black;
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #DC143C;
+    position: absolute;
+    left: 1190px;
+    top: 300px;
+    width: 110px;
+}
+
+
+
