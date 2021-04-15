@@ -1,0 +1,35 @@
+/*Autor: Luan S Calais*/ 
+
+#P2{font-family: 'Raleway', sans-serif;
+    color: #DC143C;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 2270px;
+    background-color: black;
+    text-align: left;
+}
+
+.link0{font-family: 'Raleway', sans-serif;
+    background-color: #DC143C;
+    border-radius: 50px 50px 50px 50px;
+    padding: 50px;/* O tamanho do fundo */
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    left: 425px;
+    top: 2700px;
+}
+
+.link0:hover{font-family: 'Raleway', sans-serif;
+    background-color: black;
+    border-radius: 50px 50px 50px 50px;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#DC143C;
+    position: absolute;
+    left: 425px;
+    top: 2700px;
+}

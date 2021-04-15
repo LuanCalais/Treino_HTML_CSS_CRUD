@@ -1,0 +1,73 @@
+/* Autor: Luan S Calais */
+
+#elem1{font-family: 'Kiwi Maru', serif;
+    color:black;
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+    top: 500px;
+    background-color: #DC143C;
+}
+
+#desc1{font-family: 'Kiwi Maru', serif;
+    color: #DC143C;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 1060px;
+    background-color: black;
+}
+
+#elem2{font-family: 'Kiwi Maru', serif;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+    top: 1300px;
+    background-color: #DC143C;
+}
+
+#desc2{font-family: 'Kiwi Maru', serif;
+    color: #DC143C;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 1860px;
+    background-color: black;
+}
+
+#elem3{font-family: 'Kiwi Maru', serif;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+    top: 2100px;
+    background-color: #DC143C;
+}
+
+#desc3{font-family: 'Kiwi Maru', serif;
+    color: #DC143C;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 2747px;
+    background-color: black;
+}
+
+#elem4{font-family: 'Kiwi Maru', serif;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+    top: 3010px;
+    background-color: #DC143C;
+}
+
+#desc4{font-family: 'Kiwi Maru', serif;
+    color: #DC143C;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 3650px;
+    background-color: black;
+}
