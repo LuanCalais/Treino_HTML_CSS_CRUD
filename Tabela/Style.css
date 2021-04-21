@@ -1,0 +1,25 @@
+/* Autor: Luan S Calais */
+
+table, th, td{
+    border: 1px solid #DC143C;
+}
+
+
+#tabela{font-family: 'Kiwi Maru', serif;
+    color:#DC143C;
+    font-size: 30px;
+    position: absolute;
+    left: 130px;
+    top: 480.2px;
+    background-color: black;
+    font-weight: bold;
+}
+
+#tabela:hover{font-family: 'Kiwi Maru', serif;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 130px;
+    top: 480.2px;
+    background-color: #DC143C;
+}
