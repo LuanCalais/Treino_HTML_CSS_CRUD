@@ -6,11 +6,58 @@
     <head>
         <title>Cadastro de Usuário</title>
         <meta charset="UTF8">
+        <link rel="stylesheet" href="/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
         <div lang="pt-br">
+
+            <a class="link1" href="/index.html">Página Inicial</a>
+
+            <a class="link2" href="/loshermanospg/losermanos.html">Los Hermanos</a>
+
+            <a class="link3" href="/paraConhecer/paraConhecer.html">Para Conhecer</a>
+
+            <a class="link4" href="/Tabela/tabela.html">Tabela de Preços Shows</a>
+
+            <a class="link5" href="/Logar/logar.html">Logar</a>
+
             <h1>Cadastrar Usuário</h1>
+            <h2 id="sub">Informações Pessoais</h2>
+
+            <form action="ControleUsuario.java" method="POST" style="font-family: 'Kiwi Maru', serif;
+            color: black;
+            font-size: 30px;
+            font-weight: bold;
+            position: absolute;
+            left: 130px;
+            top: 480.4px;
+            background-color: #dc143c;">
+                <fieldset><!--tag que define um grupo de campos no formulário, e desenha uma caixa ao redor deles-->
+                    <legend>Informações Pessoais.</legend>
+                    Nome:<br>
+                    <input type="text" name="nome" required autofocus><br>
+                    Senha:<br>
+                    <input type="password" name="senha" required><br>
+                    E-mail:<br>
+                    <input type="email" name="email" autocomplete="on" placeholder="nome@email.com" required><br>
+
+                    <input type="submit" name="btnEnviar" value="Enviar"><br>
+                </fieldset>
+            </form>
+
+            <footer style="font-family: 'Kiwi Maru', serif;
+            color:#DC143C;
+            font-size: 15px;
+            position: absolute;
+            left: -10px;
+            top: 1000px;
+            background-color: black;
+            width: 1350px;
+            text-align: center;">(Indie)spensável</footer>
+
         </div>
     </body>
 

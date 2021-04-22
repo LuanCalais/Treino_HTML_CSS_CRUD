@@ -208,5 +208,28 @@ h2:hover{font-family: 'Raleway', sans-serif;
     width: 110px;
 }
 
+.link5{font-family: 'Kiwi Maru', serif;
+    background-color: #DC143C;
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    left: 1190px;
+    top: 400px;
+    width: 110px;
+}
 
-
+.link5:hover{font-family: 'Kiwi Maru', serif;
+    background-color: black;
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #DC143C;
+    position: absolute;
+    left: 1190px;
+    top: 400px;
+    width: 110px;
+}
